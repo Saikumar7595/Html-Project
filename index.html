@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Webpage</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<style>
+body {
+   background-color:#D9D9D9;
+	overflow-x:hidden;
+	
+	
+}
+
+ul {
+    display:flex;
+	flex-wrap:wrap;
+    justify-content: flex-end;
+	text-decoration:none;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+	background-color:#1F79FF;
+	
+	
+	
+	
+}
+.one h1{
+     position:relative;
+     bottom:80px;
+	 left:10px;
+	 color:white;
+	 }
+
+li {
+    padding: 30px;
+    font-size: 20px;
+	color:white;
+	
+}
+.one{
+     position:sticky;
+     top:0;
+     z-index:999;
+}
+.sai{
+    position:relative;
+	top:0;
+
+}
+.icon{
+       position:absolute;
+	 bottom:27%;
+	 left:20%; 
+	 font-size:110px;
+    
+	 }
+.sai1 h1{
+      font-size:90px;
+	  color:black;
+	  position:absolute;
+	 bottom:30%;
+	 left:30%;
+}
+.two{
+     background-color:white;
+     width:100%;
+     height:700px;
+	 border-radius:30px;
+}
+.two h1{
+      position:relative;
+      left:15px;
+	  font-size:30px;
+     }
+	 .two img{
+	 position:relative;
+	 left:130px;
+	 top:20%;
+	 }
+.two:hover{ background-color:red;}	 
+.two1{
+      background-color:white;
+     width:100%;
+     height:300px;
+	 border-radius:30px;
+	 }
+	 .two1 h1{
+      position:relative;
+      left:15px;
+	  font-size:30px;
+     }
+	 .two1:hover{ background-color:gray;}
+     .two1 img{
+	 position:relative;
+	 left:80px;
+	 bottom:80px;
+       
+       
+	   
+}	   
+.two2{
+      background-color:white;
+     width:100%;
+     height:367px;
+	 border-radius:30px;
+	 margin-top:30px;
+	 }
+	  .two2 h1{
+      position:relative;
+      left:15px;
+	  font-size:30px;
+     }
+	 .two2:hover{ background-color:green;}	
+	 .two2 img{
+	 position:relative;
+	 top:35%;
+	 left:40%;
+	 }
+.two3{
+      background-color:white;
+     width:100%;
+     height:367px;
+	 border-radius:30px;
+	 margin-top:30px;
+     }
+	 .two3 h1{
+      position:relative;
+      left:15px;
+	  font-size:30px;
+     } 
+	 .two3:hover{ 
+	 background-color:yellow;
+	 }
+	 .two3 img{
+	 position:relative;
+	 top:20% ;
+	 left:20% ;
+	 }
+	 #pro{
+	 position:relative;
+	 text-align:center;
+	 background-color:#1F79FF;
+	 color:white;
+	 margin-top:20px;
+	 }
+	 #pro:hover{
+	 color:black;
+	 }
+	 
+ .three{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}	
+.three img{
+	 position:relative;
+	 bottom:20%;
+	 right:8%;
+	 top:20%;
+	 }
+  .three1{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+
+.three1:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+ .three1 img{
+           position:relative;
+		   left:10%;
+		   top:10%;
+		   }
+	
+.three2{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three2:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+	 
+ .three3{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three3:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}	
+	 
+ .three4{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three4:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+.three4 img{
+  position:relative;
+  top:20%;
+  }
+	 
+ .three5{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three5:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+	 
+ .three6{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three6:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+.three6 img{
+  position:relative;
+  left:10%;
+  }
+	
+	 
+ .three7{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three7:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+.three7 img{
+  position:relative;
+  left:10%;
+  top:10%;
+  }
+.three8{
+      background-color:white;
+      width:100%;
+      height:400px;
+	  border-radius:30px;
+}
+.three8:hover{
+    transform: scale(0.9);
+    transition: transform 0.5s ease;
+}
+.three8 img{
+  position:relative;
+  left:10%;
+  top:10%;
+  }					
+#abo{
+     position:relative;
+	 text-align:center;
+	 background-color:#1F79FF;
+	 color:white;
+	 margin-top:20px;
+	 font-size:30px;
+	 }
+	 #abo:hover{
+	 color:black;
+	 }	
+	 .ll h2{
+	 background-color:black;
+	 width:100px;
+	 height:30px;
+	 font-size:15px;
+	 color:white;
+	 text-align:center;
+	 position:relative;
+	border-radius:10px;
+	 }
+	 .ll{
+	 position:relative;
+	 left:20px;
+	 margin-top:10px;
+	 }
+	 .ll h1{
+	 font-size:25px;
+	 }
+	 .four{
+	 position:relative;
+	 top:20%;
+	 left:20%;
+	 }
+	 .four h1{
+	    font-size:70px;
+		}
+		.four1 img{
+		border-radius:20px;
+		}
+	  .four6{
+	 position:relative;
+	 top:;
+	 left:110%;
+	 }
+	 .five{
+	 background-color:white;
+	 width:100%;
+	 height:700px;
+	 border-radius:20px;
+	 }
+	 .five1{
+	 background-color:white;
+	 width:100%;
+	 height:700px;
+	 border-radius:20px;
+	 }
+	 .five2{
+	 background-color:white;
+	 width:100%;
+	 height:700px;
+	 border-radius:20px;
+	 }
+	 #ser{
+     position:relative;
+	 text-align:center;
+	 background-color:#1F79FF;
+	 color:white;
+	 margin-top:50px;
+	 font-size:30px;
+	 }
+	 #ser:hover{
+	 color:black;
+	 }
+.five1 img{
+      position:relative;
+      top:10%;
+	  left:10%;
+      }	
+	  
+	 	 
+.five2 img{
+      position:relative;
+	  
+      
+	  left:10%;
+      }	
+	  .five p{
+	  position:relative;
+	  left:10%;
+	  top:10%;
+	  }
+	  .btn{
+	  position:relative;
+	  top:20%;
+	  left:30%;
+	  width:30%;
+	  }
+	  .five1 h1{
+	  position:relative;
+	  top:22%;
+	  left:20%;
+	  }
+	  .btn{
+	  position:relative;
+	  top:20%;
+	  left:30%;
+	  width:30%;
+	  }
+	  .bt{
+	   position:relative;
+	  top:58%;
+	  
+	  
+	  }
+	  .bat{
+	   position:relative;
+	  top:25%;
+	  
+	  
+	  }
+	  .batt{
+	   position:relative;
+	  top:45%;
+	  
+	  
+	  }
+	  .five2 h1{
+	  position:relative;
+	  left:10%;
+	  }
+	  .five2 p{
+	  position:relative;
+	  left:10%;
+	  top:10%;
+	  }
+	   .five1 p{
+	  position:relative;
+	  left:25%;
+	  top:30%;
+	  }
+	   #con{
+     position:relative;
+	 text-align:center;
+	 background-color:#1F79FF;
+	 color:white;
+	 margin-top:50px;
+	 font-size:30px;
+	 }
+	 #con:hover{
+	 color:black;
+	 }
+	 .six{
+	 background-color:white;
+	 width:100%;
+	 height:300px;
+	  position:relative;
+	 }
+	 .six h1{
+	 position:relative;
+	 font-size:20px;
+	 left:50px;
+	 top:15%;
+	 }
+	 .six p{
+	 position:relative;
+	left:20px;
+	
+	 top:25%;
+	 }
+	 
+	   .six1{
+	 background-color:white;
+	 width:100%;
+	 height:300px;
+	  position:relative;
+	 }
+	  .six1 h1{
+	 position:relative;
+	 font-size:20px;
+	 left:80px;
+	 top:15%;
+	 }
+	 .six1 p{
+	 position:relative;
+	left:80px;
+	
+	 top:25%;
+	 }
+	  
+	   .six2{
+	 background-color:white;
+	 width:100%;
+	 height:300px;
+	  position:relative;
+	  
+	 }
+	  .six2 h1{
+	 position:relative;
+	 font-size:20px;
+	 left:40%;
+	 top:15%;
+	 }
+	 .six2 p{
+	 position:relative;
+	left:30%;
+	
+	 top:25%;
+	 }
+	  
+	   .six3{
+	 background-color:white;
+	 width:100%;
+	 height:300px;
+	 position:relative;
+	 }
+	  .six3 h1{
+	 position:relative;
+	 font-size:20px;
+	 left:40%;
+	 top:15%;
+	 }
+	 .six3 p{
+	 position:relative;
+	left:20%;
+	
+	 top:25%;
+	 }
+	 .hh{
+	 background-color:powderblue;
+	 position:relative;
+	 width:70%;
+	 height:600px;
+	 left:15%;
+	 top:10px;
+	 
+	 }
+	 .ion{
+	 position:relative;
+	 font-size:60px;
+	 left:40%;
+	 top:10%;
+	 }
+	#in{
+	position:relative;
+	top:10%;
+	left:20%;
+	width:60%;
+	height:10%;
+	}
+	.cmt{
+	position:relative;
+	background-color:white;
+	top:20%;
+	left:20%;
+	width:60%;
+	height:30%;
+	}
+	.end{
+	width:40%;
+	position:relative;
+	left:33%;
+	top:30%;
+	}
+	.one li:hover{
+	color:black;}
+	
+	  
+
+</style>
+</head>
+<body>
+<div class="one">
+    
+    <ul>
+        <a href=""><li>Home</li></a>
+        <a href="#pro"><li>products</li></a>
+        <a href="#abo"><li>About</li></a>
+		 <a href="#ser"><li>services</li></a>
+         <a href="#con"><li >Contact</li></a>
+    </ul>
+	
+	</div>
+<div class="sai">
+<img src="img1.jpg"width="100%"height="30%">
+</div>
+<div class="sai1">
+<div class="icon"><i class="fa-solid fa-cart-shopping fa-beat" style="color: #63E6BE;"></i></div>
+<h1>GADGET STORE</h1>
+</div>
+
+<br/>
+<center><h1>GADGETS</h1></center>
+<br/>
+<div class="container">
+<div class="row">
+
+<div class="col-sm-6">
+<div class="two">
+<h1>Laptops</h1>
+<img src="one.jpg">
+</div>
+</div>
+<div class="col-sm-6">
+<div class="two1">
+<h1>Drones</h1>
+<img src="two.jpg"width="70%">
+</div>
+<div class="row">
+
+<div class="col-sm-6">
+<div class="two2">
+<h1>Smartphones</h1>
+<img src="three.jpg"width="70%">
+</div>
+</div>
+<div class="col-sm-6">
+<div class="two3">
+<h1>Gaming</h1>
+<img src="four.jpg"width="80%">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="pro"><h1>products</h1></div>
+<div class="container"style="margin-top:20px">
+<div class="row">
+<div class="col-sm-4">
+<div class="three">
+<img src="pro1.png"width="110%">
+</div>
+<div class="ll">
+<h1>AirPods Pro</h1>
+<p>$249.00</p>
+<p>GADGETS</P>
+<h2>Add to cart</h2>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="three1">
+<img src="pro2.jpg"width="85%">
+</div>
+<div class="ll">
+<h1>Apple Watch</h1>
+<p>$399.00</p>
+<p>GADJETS</p>
+<h2>Add to cart</h1>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="three2"> 
+<img src="one.jpg">
+</div>
+<div class="ll">
+<h1>LapTop</h1>
+<p>$4000.00</p>
+<p>GADGETS</p>
+<h2>Add to cart</h2>
+</div>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-4">
+<div class="three3">
+<img src="pro3.jpg"width="90%">
+</div>
+<div class="ll">
+<h1>HTC Vive Pro2</h1>
+<p>696.00</p>
+<p>GADGETS GAMEING</P>
+<h2>Add to cart</h2>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="three4">
+<img src="pro4.jpg"width="100%">
+</div>
+<div class="ll">
+<h1>Razer Black Shark</h1>
+<p>$159.00</p>
+<p>GADGETS GAMEING</P>
+<h2>Add to cart</h2>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="three5">
+<img src="pro5.jpg">
+</div>
+<div class="ll">
+<h1>Samsung Galaxy S21</h1>
+<p>$799.00</p>
+<p>SMART PHONES</P>
+<h2>Add to cart</h2>
+</div>
+</div>
+</div>
+<br/>
+<div class="row">
+<div class="col-sm-4">
+<div class="three6">
+<img src="two.jpg"width="90%">
+</div>
+<div class="ll">
+<h1>Drone</h1>
+<p>$499.00</p>
+<p>GADGETS</P>
+<h2>Add to cart</h2>
+
+</div>
+</div>
+<div class="col-sm-4">
+<div class="three7">
+<img src="four.jpg"width="80%">
+</div>
+<div class="ll">
+<h1>R36s Handheld Game Console</h1>
+<p>$300.00</p>
+<p>Gaming</P>
+<h2>Add to cart</h2>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="three8">
+<img src="pro6.png"width="80%">
+</div>
+<div class="ll">
+<h1>I phone</h1>
+<p>$300.00</p>
+<p>SMART PHONES</p>
+<h2>Add to cart</h2>
+
+</div>
+</div>
+</div>
+</div>
+<div id="abo">About</h1></div>
+<div class="container">
+<div class="row">
+<div class="col-sm-6">
+<div class="four">
+<p>How it Started</p>
+<h1>Our Dream is<br/>Global Learning<br/>Transformation</h1>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="four1">
+<img src="abo.jpg"width="100%"style="margin-top:20px">
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-6"style="margin-top:20px">
+<div class="four2">
+<p>our primary goal is to provide the Best Online Shopping Experience by Providing Excellent customer service and Great quality products. So that we can establish a good Long Term relation Between Customer and Us. We’re dedicated to establish a self-made company with a loyal client following.<br/>
+We are a fast-growing company because we always put the customer first. A customer-centered shopping experience has always been our goal, and we pride ourselves on the comprehensive policies that have  and beyond our competitors.<br/>  our products bring together the quality and everyday design to create something very special. We believe in care and creating unique products that everyone can enjoy. Colorful, creative, and inspired by what we see everyday, each piece of accessory represents what we love about the world we live in. </p>
+</div>
+</div>
+<div class="col-sm-3"style="margin-top:40px;">
+<div class="four3">
+<h1>3.5</h1>
+<p>rating for my store</p>
+</div>
+<div class="row">
+<div class="col-sm-6">
+<div class="four5">
+<h1>830+</h1>
+<p>products in the store</p>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="four6">
+<h1>100k</h1>
+<p>user for the sore</p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-3"style="margin-top:40px;">
+<div class="four4">
+<h1>23</h1>
+<p>persons changes</p>
+</div>
+</div>
+</div>
+</div>
+<div id="ser">Services</div>
+<div class="container">
+<div class="four7"style="margin-top:30px">
+<center><h1>Our features& services</h1></center>
+</div>
+<div class="row" style="margin-top:40px";>
+<div class="col-sm-4">
+<div class="five">
+<img src="ser1.jpg"width="90%">
+<center><h1>Communications</h1></center>
+<p> pretium lectus quam id leonin vitae turpis.Mattis pellentesque id nibh tortor id</p>
+<button class="btn btn-success">more</button>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="five1">
+<img src="um.jpg"width="80%">
+<h1>Fast Delivery</h1>
+<p>24/7 on tym delivery </p>
+<div class="batt"><button class="btn btn-success">more</button></div>
+
+</div>
+</div>
+<div class="col-sm-4">
+<div class="five2">
+<img src="ser3.jpg"width="90%">
+<h1>happy customers</h1>
+<p>my customers are very happy to vist my site</p>
+<div class="bat"><button class="btn btn-success">more</button></div>
+
+</div>
+</div>
+
+</div>
+</div>
+<div id="con"><h1>Contact</h1></div>
+<div class="container"style="margin-top:90px">
+<div class="row sa" >
+<div class="col-sm-3">
+<div class="six">
+<div class="ion"><i class="fa-solid fa-location-dot" style="color: #74C0FC;"></i></div>
+<h1>OUR MAIN OFFICE</h1>
+<p>hydrabad ligampalli,main road,opposite high-tech  city</p>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="six1">
+<div class="ion"><i class="fa-solid fa-phone" style="color: #74C0FC;"></i></div>
+<h1>PHONE NUMBER</h1>
+<p>222-999-5400<br/>777-888-1234(Toll Free)</p>
+</div>
+</div> 
+<div class="col-sm-3">
+<div class="six2">
+<div class="ion"><i class="fa-solid fa-fax" style="color: #74C0FC;"></i></div>
+<h1>FAX</h1>
+<p>1-234-567-8900</p>
+</div>
+</div>
+<div class="col-sm-3">
+<div class="six3">
+<div class="ion"><i class="fa-solid fa-square-envelope" style="color: #74C0FC;"></i></div>
+<h1>EMAIL</h1>
+<p>gagetstore11@gamil.com</p>
+</div>
+</div>
+</div>
+<div class="hh">
+<center><h1 style="color:blue">Contact Us</h1></center>
+<input for="text" placeholder="enter the name" id="in"/><br/><br/>
+<input for="text" placeholder="Enter a valid email address" id="in"/>
+<div class="cmt"></div>
+<div class="end"><button class="btn btn-info">SUBMIT</button></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
